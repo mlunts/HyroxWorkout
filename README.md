@@ -2,6 +2,20 @@
 
 A SwiftUI app for iOS and Apple Watch that tracks your time through a full Hyrox-style workout — 8 runs alternating with 8 workout stations.
 
+## Screenshots
+
+### iPhone
+
+| Start | Workout (Run) | Workout (Station) | Settings | Results |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="screenshots/ios-start.png" width="180"> | <img src="screenshots/ios-workout-run.png" width="180"> | <img src="screenshots/ios-workout-station.png" width="180"> | <img src="screenshots/ios-settings.png" width="180"> | <img src="screenshots/ios-results.png" width="180"> |
+
+### Apple Watch
+
+| Start | Workout | Buttons | Results |
+|:---:|:---:|:---:|:---:|
+| <img src="screenshots/watch-start.png" width="140"> | <img src="screenshots/watch-workout.png" width="140"> | <img src="screenshots/watch-buttons.png" width="140"> | <img src="screenshots/watch-results.png" width="140"> |
+
 ## Features
 
 - **Live workout tracking** — tap through each station with a running timer for both the current station and total elapsed time

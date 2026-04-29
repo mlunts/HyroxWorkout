@@ -75,6 +75,7 @@ struct ActiveWorkoutView: View {
                 .bold()
             }
         }
+        .toolbar(.hidden, for: .tabBar)
     }
 }
 #Preview {
