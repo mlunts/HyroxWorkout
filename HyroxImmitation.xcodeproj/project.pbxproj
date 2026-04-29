@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D9D278D12FA2362400C25964 /* HyroxImmitationWatch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D9D278B12FA2362300C25964 /* HyroxImmitationWatch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D96AD7782FA2240900816117 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +25,72 @@
 			remoteGlobalIDString = D96AD7692FA2240800816117;
 			remoteInfo = HyroxImmitation;
 		};
+		D9D278BE2FA2362400C25964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96AD7622FA2240800816117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D278B02FA2362300C25964;
+			remoteInfo = "HyroxImmitationWatch Watch App";
+		};
+		D9D278C82FA2362400C25964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96AD7622FA2240800816117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D278B02FA2362300C25964;
+			remoteInfo = "HyroxImmitationWatch Watch App";
+		};
+		D9D278CF2FA2362400C25964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96AD7622FA2240800816117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D278B02FA2362300C25964;
+			remoteInfo = "HyroxImmitationWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9D278D52FA2362400C25964 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D9D278D12FA2362400C25964 /* HyroxImmitationWatch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D96AD76A2FA2240800816117 /* HyroxImmitation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyroxImmitation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96AD7772FA2240900816117 /* HyroxImmitationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyroxImmitationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96AD7812FA2240900816117 /* HyroxImmitationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyroxImmitationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D278B12FA2362300C25964 /* HyroxImmitationWatch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HyroxImmitationWatch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D278BD2FA2362400C25964 /* HyroxImmitationWatch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HyroxImmitationWatch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D278C72FA2362400C25964 /* HyroxImmitationWatch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HyroxImmitationWatch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D9D278E12FA2373F00C25964 /* Exceptions for "HyroxImmitation" folder in "HyroxImmitationWatch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Constants.swift,
+				Model/Division.swift,
+				Model/Station.swift,
+				ViewModel/SettingsSync.swift,
+				ViewModel/WorkoutViewModel.swift,
+			);
+			target = D9D278B02FA2362300C25964 /* HyroxImmitationWatch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D96AD76C2FA2240800816117 /* HyroxImmitation */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D9D278E12FA2373F00C25964 /* Exceptions for "HyroxImmitation" folder in "HyroxImmitationWatch App" target */,
+			);
 			path = HyroxImmitation;
 			sourceTree = "<group>";
 		};
@@ -43,6 +102,21 @@
 		D96AD7842FA2240900816117 /* HyroxImmitationUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HyroxImmitationUITests;
+			sourceTree = "<group>";
+		};
+		D9D278B22FA2362300C25964 /* HyroxImmitationWatch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HyroxImmitationWatch App";
+			sourceTree = "<group>";
+		};
+		D9D278C02FA2362400C25964 /* HyroxImmitationWatch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HyroxImmitationWatch AppTests";
+			sourceTree = "<group>";
+		};
+		D9D278CA2FA2362400C25964 /* HyroxImmitationWatch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HyroxImmitationWatch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +143,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9D278AE2FA2362300C25964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D278BA2FA2362400C25964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D278C42FA2362400C25964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +173,9 @@
 				D96AD76C2FA2240800816117 /* HyroxImmitation */,
 				D96AD77A2FA2240900816117 /* HyroxImmitationTests */,
 				D96AD7842FA2240900816117 /* HyroxImmitationUITests */,
+				D9D278B22FA2362300C25964 /* HyroxImmitationWatch App */,
+				D9D278C02FA2362400C25964 /* HyroxImmitationWatch AppTests */,
+				D9D278CA2FA2362400C25964 /* HyroxImmitationWatch AppUITests */,
 				D96AD76B2FA2240800816117 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +186,9 @@
 				D96AD76A2FA2240800816117 /* HyroxImmitation.app */,
 				D96AD7772FA2240900816117 /* HyroxImmitationTests.xctest */,
 				D96AD7812FA2240900816117 /* HyroxImmitationUITests.xctest */,
+				D9D278B12FA2362300C25964 /* HyroxImmitationWatch App.app */,
+				D9D278BD2FA2362400C25964 /* HyroxImmitationWatch AppTests.xctest */,
+				D9D278C72FA2362400C25964 /* HyroxImmitationWatch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +203,12 @@
 				D96AD7662FA2240800816117 /* Sources */,
 				D96AD7672FA2240800816117 /* Frameworks */,
 				D96AD7682FA2240800816117 /* Resources */,
+				D9D278D52FA2362400C25964 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D9D278D02FA2362400C25964 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				D96AD76C2FA2240800816117 /* HyroxImmitation */,
@@ -163,6 +266,74 @@
 			productReference = D96AD7812FA2240900816117 /* HyroxImmitationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D9D278B02FA2362300C25964 /* HyroxImmitationWatch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D278D22FA2362400C25964 /* Build configuration list for PBXNativeTarget "HyroxImmitationWatch App" */;
+			buildPhases = (
+				D9D278AD2FA2362300C25964 /* Sources */,
+				D9D278AE2FA2362300C25964 /* Frameworks */,
+				D9D278AF2FA2362300C25964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D9D278B22FA2362300C25964 /* HyroxImmitationWatch App */,
+			);
+			name = "HyroxImmitationWatch App";
+			packageProductDependencies = (
+			);
+			productName = "HyroxImmitationWatch Watch App";
+			productReference = D9D278B12FA2362300C25964 /* HyroxImmitationWatch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9D278BC2FA2362400C25964 /* HyroxImmitationWatch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D278D62FA2362400C25964 /* Build configuration list for PBXNativeTarget "HyroxImmitationWatch AppTests" */;
+			buildPhases = (
+				D9D278B92FA2362400C25964 /* Sources */,
+				D9D278BA2FA2362400C25964 /* Frameworks */,
+				D9D278BB2FA2362400C25964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D278BF2FA2362400C25964 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D9D278C02FA2362400C25964 /* HyroxImmitationWatch AppTests */,
+			);
+			name = "HyroxImmitationWatch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "HyroxImmitationWatch Watch AppTests";
+			productReference = D9D278BD2FA2362400C25964 /* HyroxImmitationWatch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9D278C62FA2362400C25964 /* HyroxImmitationWatch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D278D92FA2362400C25964 /* Build configuration list for PBXNativeTarget "HyroxImmitationWatch AppUITests" */;
+			buildPhases = (
+				D9D278C32FA2362400C25964 /* Sources */,
+				D9D278C42FA2362400C25964 /* Frameworks */,
+				D9D278C52FA2362400C25964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D278C92FA2362400C25964 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D9D278CA2FA2362400C25964 /* HyroxImmitationWatch AppUITests */,
+			);
+			name = "HyroxImmitationWatch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "HyroxImmitationWatch Watch AppUITests";
+			productReference = D9D278C72FA2362400C25964 /* HyroxImmitationWatch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +355,17 @@
 						CreatedOnToolsVersion = 26.4.1;
 						TestTargetID = D96AD7692FA2240800816117;
 					};
+					D9D278B02FA2362300C25964 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					D9D278BC2FA2362400C25964 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = D9D278B02FA2362300C25964;
+					};
+					D9D278C62FA2362400C25964 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = D9D278B02FA2362300C25964;
+					};
 				};
 			};
 			buildConfigurationList = D96AD7652FA2240800816117 /* Build configuration list for PBXProject "HyroxImmitation" */;
@@ -203,6 +385,9 @@
 				D96AD7692FA2240800816117 /* HyroxImmitation */,
 				D96AD7762FA2240900816117 /* HyroxImmitationTests */,
 				D96AD7802FA2240900816117 /* HyroxImmitationUITests */,
+				D9D278B02FA2362300C25964 /* HyroxImmitationWatch App */,
+				D9D278BC2FA2362400C25964 /* HyroxImmitationWatch AppTests */,
+				D9D278C62FA2362400C25964 /* HyroxImmitationWatch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +408,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D96AD77F2FA2240900816117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D278AF2FA2362300C25964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D278BB2FA2362400C25964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D278C52FA2362400C25964 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +459,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9D278AD2FA2362300C25964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D278B92FA2362400C25964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D278C32FA2362400C25964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +492,21 @@
 			isa = PBXTargetDependency;
 			target = D96AD7692FA2240800816117 /* HyroxImmitation */;
 			targetProxy = D96AD7822FA2240900816117 /* PBXContainerItemProxy */;
+		};
+		D9D278BF2FA2362400C25964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D278B02FA2362300C25964 /* HyroxImmitationWatch App */;
+			targetProxy = D9D278BE2FA2362400C25964 /* PBXContainerItemProxy */;
+		};
+		D9D278C92FA2362400C25964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D278B02FA2362300C25964 /* HyroxImmitationWatch App */;
+			targetProxy = D9D278C82FA2362400C25964 /* PBXContainerItemProxy */;
+		};
+		D9D278D02FA2362400C25964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D278B02FA2362300C25964 /* HyroxImmitationWatch App */;
+			targetProxy = D9D278CF2FA2362400C25964 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -538,6 +780,162 @@
 			};
 			name = Release;
 		};
+		D9D278D32FA2362400C25964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BV7G443SR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HyroxImmitationWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = mlunts.HyroxImmitation;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mlunts.HyroxImmitation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Debug;
+		};
+		D9D278D42FA2362400C25964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BV7G443SR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HyroxImmitationWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = mlunts.HyroxImmitation;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mlunts.HyroxImmitation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Release;
+		};
+		D9D278D72FA2362400C25964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BV7G443SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mlunts.HyroxImmitationWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyroxImmitationWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyroxImmitationWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Debug;
+		};
+		D9D278D82FA2362400C25964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BV7G443SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mlunts.HyroxImmitationWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyroxImmitationWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyroxImmitationWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Release;
+		};
+		D9D278DA2FA2362400C25964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BV7G443SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mlunts.HyroxImmitationWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HyroxImmitationWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Debug;
+		};
+		D9D278DB2FA2362400C25964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BV7G443SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mlunts.HyroxImmitationWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HyroxImmitationWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,6 +971,33 @@
 			buildConfigurations = (
 				D96AD7922FA2240900816117 /* Debug */,
 				D96AD7932FA2240900816117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D278D22FA2362400C25964 /* Build configuration list for PBXNativeTarget "HyroxImmitationWatch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D278D32FA2362400C25964 /* Debug */,
+				D9D278D42FA2362400C25964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D278D62FA2362400C25964 /* Build configuration list for PBXNativeTarget "HyroxImmitationWatch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D278D72FA2362400C25964 /* Debug */,
+				D9D278D82FA2362400C25964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D278D92FA2362400C25964 /* Build configuration list for PBXNativeTarget "HyroxImmitationWatch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D278DA2FA2362400C25964 /* Debug */,
+				D9D278DB2FA2362400C25964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
